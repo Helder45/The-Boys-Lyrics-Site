@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(#fe4365, #fc9d9a, #f9cdad, #c8c8a9, #83af9b);
+}
+p {
+    white-space: pre;
+    text-align: center;
+}
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #f8b195;
+}
+.container {
+    
+    display: flex;
+    background-image: linear-gradient(#f8b195, #f67280, #c06c84, #6c5b7b, #355c7d);
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    
+}
+.footer{
+    display: flex;
+}
